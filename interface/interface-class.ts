@@ -20,17 +20,3 @@ class Person implements IPerson1 {
 
 // const person: IPerson1 = new Person(`MARK`);
 // const person = new Person(`MARK`);
-
-interface IPerson2 {
-    name: string;
-    age?: number;
-}
-
-interface IKorean extends IPerson2 {
-    city: string;
-}
-
-const k: IKorean = {
-    name: "김정완",
-    city: "서울"
-};
